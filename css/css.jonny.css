@@ -1,0 +1,181 @@
+body {
+    background: #f7f7f7;
+    color: #333;
+    font-family: 'Playfair Display', serif;
+    margin: auto;
+}
+
+article, header {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+img{
+    display: block;
+    padding: 0;
+    max-width: 100%;    
+}
+
+/*---- Styling typography ---*/
+h1, h2 {
+    color: #91751a;
+    font-family: 'Proza Libre', sans-serif;
+
+}
+
+p, blockquote{
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+h1{
+    font-size:5.063rem;
+    color: #4d3f0f;
+    font-weight: light;
+    margin: 0 0 1rem 0;
+    letter-spacing: 2.6px;
+}
+
+h2{
+    font-size:2.25rem;
+    margin: 0rem 0 1rem 0;
+}
+
+blockquote{
+    font-size: 1.75rem;
+    font-style: italic;
+    margin: 0;
+    hanging-punctuation: [first];
+    text-indent: -0.9rem;
+    background: #4d3f0f;
+    background-size:2rem;
+    color: #f7f7f7;
+    padding: 30px;
+}
+
+header p{
+    font-size: 2rem ;
+    margin-bottom: 4rem;
+    font-style: oblique;
+}   
+
+/*-- Styling links---*/
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#91751a;
+}
+
+/*---style nav---*/
+
+nav{
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background:#4d3f0f;
+    padding: 2rem 0;
+    font-size: 1rem;
+}
+
+nav ul{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    margin: 20px;
+}
+
+nav a:link{
+    color:  
+}
+
+nav a:hover{
+    transition: all 0.5s ease-in-out;
+}
+
+footer{
+    background:#4d3f0f;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+footer p{
+    margin: 0.9rem;
+    color:#ffffff;
+    text-align: center;
+}
+
+footer a{
+    letter-spacing: 1px;
+    margin-bottom: 0.5;
+}
+
+footer ul, footer ol{
+    list-style: none;
+    margin: auto;
+
+    footer svg{
+        display: block;
+        margin: auto;
+    }
+    
+    .connections{
+        position: relative;
+        margin: auto;}
+        
+    
+    .connections li{
+        margin: 0 10px;
+        padding: 0;
+        list-style: none;
+        display: inline-block;  }
+    
+    .connections a:link{
+            border-bottom: none;       }
+    
+    .connections img, .connections svg{
+        border: none;}
+    
+    .connections a:hover img, .connections a:hover svg{
+        border-bottom: none;}
+          
+     .connections svg {
+        margin: 2rem auto;}
+          
+    .connections a:hover svg path {
+        fill: #333;
+        transition: all 0.2s ease-in-out;}
+          
+    footer .connections a:hover svg path {
+        fill:  #c2c2c2;
+        transition: all 0.2s ease-in-out;}
+
+        /*---style grid---*/
+        
+        .grid-container {
+            display: grid;
+            grid-template-rows: repeat(2, 1fr); /* Two rows with equal height */
+            gap: 20px; /* Adjust the gap between items as needed */
+            padding: 20px;
+        }
+        
+        .item {
+            background-color: #e0e0e0;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
