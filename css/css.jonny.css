@@ -14,7 +14,7 @@ article, header {
 
 img{
     display: block;
-    padding: 0;
+    padding: 0rem;
     max-width: 100%;    
 }
 
@@ -46,7 +46,7 @@ h2{
 blockquote{
     font-size: 1.75rem;
     font-style: italic;
-    margin: 0;
+    margin: 3;
     hanging-punctuation: [first];
     text-indent: -0.9rem;
     background: #4d3f0f;
@@ -129,36 +129,9 @@ footer ul, footer ol{
         margin: auto;
     }
     
-    .connections{
-        position: relative;
-        margin: auto;}
-        
-    
-    .connections li{
-        margin: 0 10px;
-        padding: 0;
-        list-style: none;
-        display: inline-block;  }
-    
-    .connections a:link{
-            border-bottom: none;       }
-    
-    .connections img, .connections svg{
-        border: none;}
-    
-    .connections a:hover img, .connections a:hover svg{
-        border-bottom: none;}
-          
-     .connections svg {
-        margin: 2rem auto;}
-          
-    .connections a:hover svg path {
-        fill: #333;
-        transition: all 0.2s ease-in-out;}
-          
-    footer .connections a:hover svg path {
-        fill:  #c2c2c2;
-        transition: all 0.2s ease-in-out;}
+    footer nav{
+        color: #f7f7f7;
+    }
 
         /*---style grid---*/
         
@@ -168,14 +141,53 @@ footer ul, footer ol{
             gap: 20px; /* Adjust the gap between items as needed */
             padding: 20px;
         }
+
+        <div class="grid-container" style="
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two rows with equal height */
+    gap: 16px; /* Adjust the gap between items as needed */
+    padding: 20px;
+">
+            <div class="item-1">
+                <img src="images/image 2.jpg" alt="image 2">
+            </div>
+            
+            <div class="item-2">
+                <img src="images/image 4.jpg" alt="image 4">
+            </div>
+        </div>
         
-        .item {
+        .item-1 {
             background-color: #e0e0e0;
             border: 1px solid #ccc;
             padding: 20px;
         }
-        
-        img {
+
+        .item-2 {
+            background-color: #e0e0e0;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+        .img {
             max-width: 100%;
             height: auto;
         }
+
+        .item-three {
+            background-color: #e0e0e0;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        .item-four {
+            background-color: #e0e0e0;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+        .img {
+            max-width: 100%;
+            height: auto;
+            padding: 3 rem;
+        }
+
+        
